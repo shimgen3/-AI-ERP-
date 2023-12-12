@@ -92,7 +92,7 @@
                                     // Obtener resultados si es una consulta SELECT
                                     $resultados = $resultados->fetchAll(PDO::FETCH_ASSOC);
                                 
-                                    // Hacer algo con los resultados...
+                                    
                                 
                                 } catch (PDOException $e) {
                                     echo "Error: " . $e->getMessage();
@@ -142,7 +142,7 @@
                                     // Obtener resultados si es una consulta SELECT
                                     $resultados = $resultados->fetchAll(PDO::FETCH_ASSOC);
                                 
-                                    // Hacer algo con los resultados...
+                                    
                                 
                                 } catch (PDOException $e) {
                                     echo "Error: " . $e->getMessage();
